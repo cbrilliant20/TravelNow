@@ -18,5 +18,5 @@ html {
 }
 
 .btn-darkBlue {
-  @apply bg-white hover:bg-white hover:text-orange;
+  @apply bg-darkBlue text-white hover:bg-white hover:text-darkBlue;
 }
