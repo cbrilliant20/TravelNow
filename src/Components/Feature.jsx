@@ -5,6 +5,7 @@ import {
   faChevronCircleRight,
   faChevronCircleLeft,
 } from "@fortawesome/free-solid-svg-icons"
+import FeatureCards from "./FeatureCards"
 
 const Feature = () => {
   return (
@@ -69,6 +70,7 @@ const Feature = () => {
           class="w-8 ml-4 text-orange hover:text-darkBlue"
         />
       </div>
+      <FeatureCards />
     </section>
   )
 }
