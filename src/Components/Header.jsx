@@ -45,9 +45,21 @@ const Header = () => {
         {menuOpen && (
           <div class="flex flex-col items-center justify-center bg-black bg-opacity-90 fixed top-0 right-0 h-full w-full z-30  text-white">
             <ul class="flex flex-col justify-center items-center sm:hidden gap-12 text-2xl text-orange">
-              <li class="cursor-pointer ">Discover</li>
-              <li class="cursor-pointer ">Destination</li>
-              <li class="cursor-pointer ">About us</li>
+              <li class="cursor-pointer text-orange">
+                <a href="#discover" onClick={handleClick}>
+                  Discover
+                </a>
+              </li>
+              <li class="cursor-pointer text-orange">
+                <a href="#destination" onClick={handleClick}>
+                  Destinations
+                </a>
+              </li>
+              <li class="cursor-pointer text-orange">
+                <a href="#services" onClick={handleClick}>
+                  Services
+                </a>
+              </li>
             </ul>
             <FontAwesomeIcon
               icon={faTimes}
