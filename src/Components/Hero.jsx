@@ -1,12 +1,13 @@
 import React from "react"
 import hero from "../Assets/hero.png"
+import bg1 from "../Assets/bg1.png"
 
 const Hero = () => {
   return (
     <section class="relative">
-      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28 ">
         {/* Content */}
-        <div class="flex flex-1 flex-col items-center lg:items-start text-center lg:text-left font-Nunito">
+        <div class="flex flex-1 flex-col items-center lg:items-start text-center lg:text-left font-Nunito z-10">
           <h1 class="font-Crimson text-5xl md:text-6xl lg:text-7xl  text-darkBlue mb-6">
             Find your next place to travel
           </h1>
@@ -16,13 +17,13 @@ const Hero = () => {
             cupiditate magnam voluptatibus!
           </p>
           {/* Input/Button */}
-          <div class="flex  justify-start items-center">
+          <div class="flex  justify-start ">
             <input
               type="text"
-              class="focus:outline-none flex-1 px-2 py-3 mr-5 rounded-md text-orange shadow-md "
-              placeholder="Search destinations"
+              class="focus:outline-none flex-1 px-5 py-3 mr-10 rounded-full text-orange shadow-md "
+              placeholder="Traveling to..."
             ></input>
-            <button class="btn btn-orange ">Search</button>
+            <button class="btn btn-orange w-fill ">Search</button>
           </div>
         </div>
         {/* Image */}
@@ -33,6 +34,10 @@ const Hero = () => {
             class="w-2/3 h-2/3 md:w-3/4 md:h-3/4 lg:w-full lg:h-full"
           />
         </div>
+      </div>
+      {/* BG-Image */}
+      <div class=" hidden w-screen md:block absolute inset-y-1/2  ">
+        <img src={bg1} alt="" class="w-screen" />
       </div>
     </section>
   )

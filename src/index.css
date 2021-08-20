@@ -14,9 +14,9 @@ html {
 }
 
 .btn-orange {
-  @apply bg-orange text-white;
+  @apply bg-orange text-white hover:bg-white hover:text-darkBlue;
 }
 
 .btn-darkBlue {
-  @apply bg-white;
+  @apply bg-white hover:bg-white hover:text-orange;
 }
