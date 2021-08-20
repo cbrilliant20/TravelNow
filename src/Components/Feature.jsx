@@ -52,7 +52,7 @@ const Feature = () => {
           <img
             src={img1}
             alt=""
-            class="w-2/3 h-2/3 md:w-3/4 md:h-3/4 lg:w-full lg:h-full animate-pulse "
+            class="w-2/3 h-2/3 md:w-3/4 md:h-3/4 lg:w-full lg:h-full  "
           />
         </div>
       </div>
