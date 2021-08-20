@@ -14,7 +14,11 @@ const Services = () => {
             Our Quality Services
           </h2>
           <div class="flex mt-10">
-            <img src={ticket} alt="" class="mr-4 animate-pulse duration-500" />
+            <img
+              src={ticket}
+              alt=""
+              class="mr-4 animate-pulse duration-500 w-1/3 h-1/3 md:w-1/4 md:h-1/4"
+            />
             <div>
               <h2 class="font-Crimson text-3xl">Ticket</h2>
               <p class="text-gray">
@@ -25,7 +29,11 @@ const Services = () => {
           </div>
 
           <div class="flex mt-10">
-            <img src={driver} alt="" class="mr-4  animate-pulse duration-500" />
+            <img
+              src={driver}
+              alt=""
+              class="mr-4  animate-pulse duration-500 w-1/3 h-1/3 md:w-1/4 md:h-1/4"
+            />
             <div>
               <h2 class="font-Crimson text-3xl">Driver</h2>
               <p class="text-gray">
@@ -35,7 +43,11 @@ const Services = () => {
             </div>
           </div>
           <div class="flex mt-10">
-            <img src={tour} alt="" class="mr-4 animate-pulse duration-500 " />
+            <img
+              src={tour}
+              alt=""
+              class="mr-4 animate-pulse duration-500 w-1/3 h-1/3 md:w-1/4 md:h-1/4"
+            />
             <div>
               <h2 class="font-Crimson text-3xl">Tour</h2>
               <p class="text-gray">
