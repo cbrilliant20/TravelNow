@@ -20,7 +20,7 @@ module.exports = {
     },
     fontFamily: {
       Nunito: ["Nunito, sans-serif"],
-      Crimson: ["Crimson Text', serif"],
+      Crimson: ["Crimson Text, serif"],
     },
     container: {
       center: true,
