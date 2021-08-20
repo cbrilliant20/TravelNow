@@ -20,7 +20,7 @@ const Hero = () => {
           <div class="flex  justify-start ">
             <input
               type="text"
-              class="focus:outline-none flex-1 px-5 py-3 mr-10 rounded-full text-orange shadow-md "
+              class="focus:outline-none flex-1  px-4 mr-5 lg:px-5 py-3 lg:mr-10 rounded-full text-orange shadow-md "
               placeholder="Traveling to..."
             ></input>
             <button class="btn btn-orange w-fill ">Search</button>
