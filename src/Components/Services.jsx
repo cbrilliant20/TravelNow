@@ -6,7 +6,7 @@ import tour from "../Assets/tour.png"
 
 const Services = () => {
   return (
-    <section>
+    <section id="services">
       <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28 ">
         {/* Content */}
         <div class="flex flex-1 flex-col items-center lg:items-start text-left font-Nunito z-10">
@@ -14,7 +14,7 @@ const Services = () => {
             Our Quality Services
           </h2>
           <div class="flex mt-10">
-            <img src={ticket} alt="" class="mr-4" />
+            <img src={ticket} alt="" class="mr-4 animate-pulse duration-500" />
             <div>
               <h2 class="font-Crimson text-3xl">Ticket</h2>
               <p class="text-gray">
@@ -25,7 +25,7 @@ const Services = () => {
           </div>
 
           <div class="flex mt-10">
-            <img src={driver} alt="" class="mr-4" />
+            <img src={driver} alt="" class="mr-4  animate-pulse duration-500" />
             <div>
               <h2 class="font-Crimson text-3xl">Driver</h2>
               <p class="text-gray">
@@ -35,7 +35,7 @@ const Services = () => {
             </div>
           </div>
           <div class="flex mt-10">
-            <img src={tour} alt="" class="mr-4" />
+            <img src={tour} alt="" class="mr-4 animate-pulse duration-500 " />
             <div>
               <h2 class="font-Crimson text-3xl">Tour</h2>
               <p class="text-gray">

@@ -4,7 +4,7 @@ import bg1 from "../Assets/bg1.png"
 
 const Hero = () => {
   return (
-    <section class="relative">
+    <section class="relative" id="discover">
       <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28 ">
         {/* Content */}
         <div class="flex flex-1 flex-col items-center lg:items-start text-center lg:text-left font-Nunito z-10">

@@ -9,8 +9,8 @@ import FeatureCards from "./FeatureCards"
 
 const Feature = () => {
   return (
-    <section>
-      <div class="container flex flex-col-reverse lg:flex-row-reverse items-center gap-12 mt-14 lg:mt-28 ">
+    <section id="destination">
+      <div class="container flex flex-col-reverse lg:flex-row-reverse items-center gap-12 mt-14 lg:mt-36 ">
         {/* Content */}
         <div class="flex flex-1 flex-col items-center lg:items-start text-center lg:text-left font-Nunito z-10">
           <h2 class="font-Crimson text-3xl md:text-4xl lg:text-5xl  text-darkBlue mb-6">
@@ -52,7 +52,7 @@ const Feature = () => {
           <img
             src={img1}
             alt=""
-            class="w-2/3 h-2/3 md:w-3/4 md:h-3/4 lg:w-full lg:h-full"
+            class="w-2/3 h-2/3 md:w-3/4 md:h-3/4 lg:w-full lg:h-full animate-pulse "
           />
         </div>
       </div>

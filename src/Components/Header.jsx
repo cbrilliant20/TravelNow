@@ -16,9 +16,15 @@ const Header = () => {
           Travel<span class="text-black ">Now</span>
         </h3>
         <ul class="hidden sm:flex flex-1 justify-center  items-center gap-6">
-          <li class="cursor-pointer text-orange">Discover</li>
-          <li class="cursor-pointer text-lightGray">Destination</li>
-          <li class="cursor-pointer text-lightGray">About us</li>
+          <li class="cursor-pointer text-orange">
+            <a href="#discover">Discover</a>
+          </li>
+          <li class="cursor-pointer text-lightGray">
+            <a href="#destination">Destinations</a>
+          </li>
+          <li class="cursor-pointer text-lightGray">
+            <a href="#services">Services</a>
+          </li>
         </ul>
         <button
           type="button"
