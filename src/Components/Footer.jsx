@@ -46,6 +46,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div class="w-screen bg-orange py-5 text-center">
+        <p class="text-darkBlue text-sm">Cameron Brilliant 2021</p>
+      </div>
     </section>
   )
 }

@@ -17,7 +17,7 @@ const Header = () => {
         </h3>
         <ul class="hidden sm:flex flex-1 justify-center  items-center gap-6">
           <li class="cursor-pointer text-orange">
-            <a href="#discover">Discover</a>
+            <a href="#home">Discover</a>
           </li>
           <li class="cursor-pointer text-lightGray">
             <a href="#destination">Destinations</a>
@@ -46,7 +46,7 @@ const Header = () => {
           <div class="flex flex-col items-center justify-center bg-black bg-opacity-90 fixed top-0 right-0 h-full w-full z-30  text-white">
             <ul class="flex flex-col justify-center items-center sm:hidden gap-12 text-2xl text-orange">
               <li class="cursor-pointer text-orange">
-                <a href="#discover" onClick={handleClick}>
+                <a href="#home" onClick={handleClick}>
                   Discover
                 </a>
               </li>
