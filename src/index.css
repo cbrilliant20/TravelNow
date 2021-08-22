@@ -21,3 +21,27 @@ html {
   @apply bg-darkBlue text-white hover:bg-white hover:text-darkBlue;
 }
 
+.alice-carousel__stage-item {
+  padding: 1rem;
+}
+
+.alice-carousel__prev-btn-wrapper,
+.alice-carousel__next-btn-wrapper {
+  margin: 1rem;
+}
+.alice-carousel__next-btn-item,
+.alice-carousel__prev-btn-item {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.alice-carousel__next-btn-item:hover *,
+.alice-carousel__prev-btn-item:hover * {
+  color: rgb(127, 181, 241);
+}
+
+.alice-carousel__next-btn-item::after .alice-carousel__prev-btn-item:after {
+  color: #ffff;
+  font-weight: 600;
+  font-size: 2rem;
+}

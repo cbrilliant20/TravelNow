@@ -1,7 +1,6 @@
 import React from "react"
 import AliceCarousel from "react-alice-carousel"
 import "react-alice-carousel/lib/alice-carousel.css"
-import FeatureCards from "./FeatureCards"
 import card1 from "../Assets/card1.png"
 import card2 from "../Assets/card2.png"
 import card3 from "../Assets/card3.png"

@@ -1,11 +1,5 @@
 import React from "react"
 import img1 from "../Assets/img1.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faChevronCircleRight,
-  faChevronCircleLeft,
-} from "@fortawesome/free-solid-svg-icons"
-import FeatureCards from "./FeatureCards"
 import Carousel from "./Carousel"
 
 const Feature = () => {
@@ -59,7 +53,7 @@ const Feature = () => {
       </div>
 
       {/* Chevron */}
-      <div class="hidden container md:flex items-center justify-end my-5">
+      {/* <div class="hidden container md:flex items-center justify-end my-5">
         <FontAwesomeIcon
           icon={faChevronCircleLeft}
           type="button"
@@ -70,8 +64,7 @@ const Feature = () => {
           type="button"
           class="w-8 ml-4 text-orange hover:text-darkBlue"
         />
-      </div>
-      {/* <FeatureCards /> */}
+      </div> */}
       <Carousel />
     </section>
   )
