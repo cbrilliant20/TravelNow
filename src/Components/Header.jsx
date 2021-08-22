@@ -34,7 +34,7 @@ const Header = () => {
         </button>
 
         {/* Mobile */}
-        <div class="flex sm:hidden flex-1 justify-end items-center">
+        <div class="flex md:lg flex-1 justify-end items-center">
           <FontAwesomeIcon
             icon={faBars}
             class="w-6 fixed z-20"
@@ -42,32 +42,6 @@ const Header = () => {
             onClick={handleClick}
           />
         </div>
-        {menuOpen && (
-          <div class="flex flex-col items-center justify-center bg-black bg-opacity-90 fixed top-0 right-0 h-full w-full z-30  text-white">
-            <ul class="flex flex-col justify-center items-center sm:hidden gap-12 text-2xl text-orange">
-              <li class="cursor-pointer text-orange">
-                <a href="#home" onClick={handleClick}>
-                  Discover
-                </a>
-              </li>
-              <li class="cursor-pointer text-orange">
-                <a href="#destination" onClick={handleClick}>
-                  Destinations
-                </a>
-              </li>
-              <li class="cursor-pointer text-orange">
-                <a href="#services" onClick={handleClick}>
-                  Services
-                </a>
-              </li>
-            </ul>
-            <FontAwesomeIcon
-              icon={faTimes}
-              class="w-6 mt-12 text-orange"
-              onClick={handleClick}
-            />
-          </div>
-        )}
       </nav>
     </header>
   )
